@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+      integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>Dashboard</title>
+  </head>
+  <style>
+    :root {
+      --main-bg-color: #00b894;
+      --mycolor: #2ed573;
+    }
+    .row {
+      /* background: burlywood; */
+      border: 1px solid rgb(115, 247, 82);
+    }
+    .col {
+      /* background: cadetblue; */
+      border: 1px solid rgb(0, 0, 0);
+    }
+     .card {
+         margin:auto;
+      width: 50vh;
+      height: 50vh;
+    }  
+    .card-header,
+    .card-footer {
+      background-color: var(--mycolor);
+      color: #fff;
+    }
+
+    .navbar {
+      justify-content: center;
+    }
+    a {
+      text-decoration: none;
+      color: #fff ;
+    }
+    /* a:visited{
+        color: #fff;
+    }
+    */
+
+       a:active{ 
+      color:indigo;
+    } 
+    /* a:hover{
+      color:#fff;
+    }  */
+    .bg {
+      background-color: var(--mycolor);
+    }
+    hr {
+      display: block;
+      unicode-bidi: isolate;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+    .card-header{
+      font-weight: 800;
+    }
+    section{
+        height:100vh;
+    }
+    /* li {
+      padding: 0 50px;
+    } */
+  </style>
+  <body>
+    <nav class="navbar navbar-expand bg ">
+      <!-- Links -->
+
+      <ul class="navbar-nav ">
+        <li class="nav-item ">
+          <a class="nav-link " href="./index.html"
+            ><i class="fa fa-home fa-2x p-2"></i>Home</a
+          >
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#"
+            ><i class="fa fa-user fa-2x p-2"></i>User</a
+          >
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="./dashboard.html"
+            ><i class="fa fa-rss fa-2x p-2"></i>Feed</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <hr />
+
+<section class="d-flex align-item-center " >
+    <div class="shadow  bg-white rounded card text-center">
+      <div class="card-header">
+       Login
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Login</h5>
+      
+    </div>
+    </div>
+ </section>   
+ 
+  </body>
+</html>
