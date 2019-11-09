@@ -41,11 +41,11 @@
       /* background: cadetblue; */
       border: 1px solid rgb(0, 0, 0);
     }
-     .card {
-         margin:auto;
+    .card {
+      margin: auto;
       width: 50vh;
-      height: 50vh;
-    }  
+      height: auto;
+    }
     .card-header,
     .card-footer {
       background-color: var(--mycolor);
@@ -57,21 +57,25 @@
     }
     a {
       text-decoration: none;
-      color: #fff ;
+      color: #fff;
     }
     /* a:visited{
         color: #fff;
     }
     */
 
-       a:active{ 
-      color:indigo;
-    } 
+    a:active {
+      color: indigo;
+    }
     /* a:hover{
       color:#fff;
     }  */
-    .bg {
+    .bg, .btn {
       background-color: var(--mycolor);
+      color: #fff;
+    }
+    .ic{
+      color: var(--mycolor)
     }
     hr {
       display: block;
@@ -81,11 +85,16 @@
       margin-inline-start: 0px;
       margin-inline-end: 0px;
     }
-    .card-header{
+    .card-header {
       font-weight: 800;
     }
-    section{
-        height:100vh;
+    section {
+      height: 90vh;
+      background-image: url("./world.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
     /* li {
       padding: 0 50px;
@@ -115,17 +124,26 @@
     </nav>
     <hr />
 
-<section class="d-flex align-item-center " >
-    <div class="shadow  bg-white rounded card text-center">
-      <div class="card-header">
-       Login
+    <section class="d-flex align-item-center ">
+      <div class="shadow  bg-white rounded card text-center">
+        <div class="card-header"><h4><i class="fa fa-sign-in"></i>
+          <strong>Login</strong></h4>
+          
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="email"><i class=" ic fa fa-envelope pr-2"></i>Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="pwd"><i class=" ic fa fa-lock pr-2"></i>Password</label>
+              <input type="password" class="form-control" id="pwd" />
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
       </div>
-      <div class="card-body">
-        <h5 class="card-title">Login</h5>
-      
-    </div>
-    </div>
- </section>   
- 
+    </section>
   </body>
 </html>
