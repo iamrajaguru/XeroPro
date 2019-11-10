@@ -78,6 +78,12 @@
     .card-header{
       font-weight: 800;
     }
+    h1{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .jc{
+      background-color: #e9ecef;
+    }
     ul 
     {
       /* color:var(--mycolor); */
@@ -89,46 +95,70 @@
         
         padding-bottom: 5%;
       }
+      .fooic>a>i{
+        color: var(--mycolor);
+      }
+      h2{
+        text-align: center;
+        padding-bottom:1rem;
+      }
+      .ft{
+        font-size: 2.5rem;
+
+      }
+      /* .j1>div>hr{
+        background-color: #fff;
+      } */
+   
     /* li {
       padding: 0 50px;
     } */
   </style>
   <body>
-    <nav class="navbar navbar-expand bg ">
-      <!-- Links -->
+    <header>
+        <nav class="navbar navbar-expand bg ">
+            <!-- Links -->
+      
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link " href="#"
+                  ><i class="fa fa-home fa-2x p-2"></i>Home</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./users.html"
+                  ><i class="fa fa-user fa-2x p-2"></i>User</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./dashboard.html"
+                  ><i class="fa fa-rss fa-2x p-2"></i>Feed</a
+                >
+              </li>
+            </ul>
+          </nav>
+    </header>
 
-      <ul class="navbar-nav ">
-        <li class="nav-item ">
-          <a class="nav-link " href="#"
-            ><i class="fa fa-home fa-2x p-2"></i>Home</a
-          >
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./users.html"
-            ><i class="fa fa-user fa-2x p-2"></i>User</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./dashboard.html"
-            ><i class="fa fa-rss fa-2x p-2"></i>Feed</a
-          >
-        </li>
-      </ul>
-    </nav>
     <hr />
 
     <div class="jumbotron j1 jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Our Works</h1>
-        <p class="lead ">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
-        </p>
+        <h1 class="display-4">COMPPOINT</h1>
+        <span class="lead ">
+        <i class="ml-2 fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i>
+        <i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i>
+        <i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i>
+        <i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i>
+        <i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i>
+        <i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i>
+        <i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i><i class="fa fa-angle-double-right "></i>
+    </span>
         <div class="row m-5">
           <div class="col-md-6 align-self-center">
             <img src="./xbox.jpeg" class="img-thumbnail"  alt="No image">
           </div>
           <div class="col-md-6 align-self-center">
+            <h3>#Gaming</h3>
            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quam ex possimus, ratione culpa ipsum id reprehenderit magnam laboriosam eaque quis, necessitatibus, suscipit rerum repellendus voluptas? Totam expedita odio vel.</p>
           </div>
         </div>
@@ -138,6 +168,7 @@
        <div class="container">
          <div class="row  m-5">
           <div class="col-md-6 align-self-center">
+          <h3>#Browsing</h3>
            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque ut blanditiis nihil et magni repellendus corporis. Odit eaque, doloribus ipsum voluptas quia veniam repellendus voluptatum aspernatur modi, in nulla!</p>
           </div>
           <div class="col-md-6 align-self-center">
@@ -149,32 +180,42 @@
 
      <div class="jumbotron j1 jumbotron-fluid">
       <div class="container">
-        <div class="row  text-center">
-          <div class="col-md-4 align-self-center">
+        <h2>Our Services<i class=" fa fa-cogs pl-2"></i></h2>
+        
+        <div class="row text-center">
+          <div class="col-md-3 align-self-center">
             <img src="./xbox.jpeg" class="img-thumbnail"  alt="No image">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p><i class="fa fa-cog fa-2 pr-2"></i>Browsing</p>
           </div>
-          <div class="col-md-4 align-self-center">
+          <div class="col-md-3 align-self-center">
           <img src="./xbox.jpeg" class="img-thumbnail"  alt="No image">
-             <p>Lorem ipsum dolor sit amet.</p>
+             <p><i class="fa fa-cog fa-2 pr-2"></i>Xerox</p>
         </div>
-         <div class="col-md-4 align-self-center">
+         <div class="col-md-3 align-self-center">
             <img src="./xbox.jpeg" class="img-thumbnail"  alt="No image">
-               <p>Lorem ipsum dolor sit amet.</p>
+               <p><i class="fa fa-cog fa-2 pr-2"></i>Printout</p>
+          </div>
+          <div class="col-md-3 align-self-center">
+            <img src="./xbox.jpeg" class="img-thumbnail"  alt="No image">
+               <p><i class="fa fa-cog fa-2 pr-2"></i>Scanning</p>
           </div>
         </div>
             <div class="row mt-2 text-center">
-          <div class="col-md-4 align-self-center">
+          <div class="col-md-3 align-self-center">
             <img src="./xbox.jpeg" class="img-thumbnail"  alt="No image">
-               <p>Lorem ipsum dolor sit amet.</p>
+               <p><i class="fa fa-cog fa-2 pr-2"></i>Lamination</p>
           </div>
-          <div class="col-md-4 align-self-center">
+          <div class="col-md-3 align-self-center">
           <img src="./xbox.jpeg" class="img-thumbnail"  alt="No image">
-             <p>Lorem ipsum dolor sit amet.</p>
+             <p><i class="fa fa-cog fa-2 pr-2"></i>Games[PS2/PS3]</p>
         </div>
-         <div class="col-md-4 align-self-center">
+         <div class="col-md-3 align-self-center">
             <img src="./xbox.jpeg" class="img-thumbnail"  alt="No image">
-               <p>Lorem ipsum dolor sit amet.</p>
+               <p><i class="fa fa-cog fa-2 pr-2"></i>Spiral</p>
+          </div>
+          <div class="col-md-3 align-self-center">
+            <img src="./xbox.jpeg" class="img-thumbnail"  alt="No image">
+               <p><i class="fa fa-cog fa-2 pr-2"></i>DTP</p>
           </div>
         </div>
     </div>
@@ -182,93 +223,84 @@
     
 
      <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="row  text-center">
-          <div class="col-md-6 justify-content-center">
-            <ul class="test">
-              <li><i class="fa fa-cog fa-2 pr-2"></i>Service One</li>
-           
-              <li><i class="fa fa-cog fa-2 pr-2"></i>Service One</li>
-               <li><i class="fa fa-cog fa-2 pr-2"></i>Service One</li>
-           
-              <li><i class="fa fa-cog fa-2 pr-2"></i>Service One</li>
-            </ul>
-        </div>
-         <div class="col-md-6 justify-content-center">
-            <ul class="test">
-              <li><i class="fa fa-cog fa-2 pr-2"></i>Service One</li>
-           
-              <li><i class="fa fa-cog fa-2 pr-2"></i>Service One</li>
-               <li><i class="fa fa-cog fa-2 pr-2"></i>Service One</li>
-           
-              <li><i class="fa fa-cog fa-2 pr-2"></i>Service One</li>
-            </ul>
-        </div>
-    </div>
-     </div>
-
-    <div class="shadow mb-5 bg-white rounded card m-2 m-md-5 text-center">
-      <div class="card-header">
-       <i class="pr-2 fa fa-bullhorn "></i>Announcement</i>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">#Exam_Starts</h5>
-        <p class="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
-        <div class="row align-items-center">
-          <div class="col-4">
-            <i class=" fa fa-phone pr-1"></i>Phone: 8807692624
-          </div>
-          <div class="col-4">
-          <i class="fa fa-calendar pr-1"></i>Date: 10/11/900
-          </div>
-          <div class="col-4">
-            <i class=" fa fa-map-marker"></i> Location: 10/11/900
-          </div>
-        </div>
-        <a href="#" class="btn btn-warning">Go somewhere</a>
-      </div>
-      <div class="card-footer ">
-        2 days ago
-      </div>
-    </div>
-
-    <div class="shadow mb-5 bg-white rounded card m-2 m-md-5 text-center">
-      <div class="card-header ">
-        <i class="pr-2 fa fa-bullhorn "></i>Announcement</i>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
-
-        <div class="row">
-          <div class="col">
-            <div class="row ">
-              <div class="col">
-                Hai
-              </div>
-              <div class="col">
-                Hello
-              </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="./Project.jpg" alt="No image">
             </div>
-            <div class="row ">
-              <div class="col">
-                How
-              </div>
-              <div class="col">
-                Are
-              </div>
+            <div class="col-md-6 align-self-center">
+                <h3>#Project_works</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis optio cupiditate a, reprehenderit, deserunt eum eveniet tempora sapiente vel quod libero deleniti itaque et praesentium nesciunt earum amet nisi illum.</p>
             </div>
           </div>
-          <div class="col align-self-center ">Welcome</div>
+        
+       </div>
+      </div>
+
+
+     <section class=" j1 pb-2 text-center">
+               <span class="ft">Contact Us</span>     
+         </section>
+
+  
+
+ <footer class="page-footer jc">
+
+  
+    <!-- Footer Elements -->
+    <div class="container pt-3">
+        <div class="row text-center">
+            <div class="col align-self-center">
+                <img class="img-fluid" height="100" width="100" src="./boss.png" alt="">
+                <h6><i class="fa fa-phone fa-2 pr-2"></i>9944428268</h6>
+                <h6><i class="fa fa-envelope fa-2 pr-2"></i>comppoint@gmail.com</h6>
+               </div>
+              </div>    
+  
+      <!-- Grid row-->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-2 fooic text-center">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+          </div>
         </div>
+        <!-- Grid column -->
+  
       </div>
-      <div class="card-footer">
-        2 days ago
-      </div>
+      <!-- Grid row-->
+  
     </div>
+
+
+
+
+    <div class="footer-copyright text-center j1 py-3">Copyrights © 2019 All reserved</div>
+ </footer>
   </body>
 </html>
